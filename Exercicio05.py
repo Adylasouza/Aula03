@@ -7,7 +7,7 @@ media = (nota1+nota2+nota3)/3
 if media >= 7:
     print(f"aprovado {media}")
 else:
-    if media <=4:
+    if media <4:
         print(f"reprovado {media}")
     else:
         print(f"recuperação {media}")
