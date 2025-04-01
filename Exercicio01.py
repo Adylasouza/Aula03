@@ -1,4 +1,8 @@
 nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
-salario = input("Digite seu salario: ")
-print(nome,idade,salario)
+idade = int (input("Digite sua idade: "))
+salario = float(input("Digite seu salario: "))
+percentual = int(input("Digite o valor do percentual : "))
+acrescimo  =  salario * (percentual/100)
+aumento = salario + acrescimo
+print(f" Seu salario é: {aumento}")
+print(nome,idade,salario,aumento)
