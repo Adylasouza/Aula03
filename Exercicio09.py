@@ -1,5 +1,4 @@
 numero = int(input("Informe um número: "))
-
 mes = numero
 
 if mes>12:
